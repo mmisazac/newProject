@@ -1,0 +1,35 @@
+
+/////////////////////////////
+// GIT
+//////////////////////////
+
+>>> with gitbash command prompt
+>>> dont forget to go in the folder where you want to use git
+ example in newProject :
+ $ cd d:/workspace/github/newProject
+
+
+
+ // SEE WHAT FILE YOU HAVE MODIFIED
+ ///////////////////////////////////////////////////////
+ $ git status
+
+ // GET CODE FROM GITHUB REPOSITORY (internet server)
+ ///////////////////////////////////////////////////////
+ $ git pull
+
+ // PUSH YOUR CODE ON GITHUB REPOSITORY
+ ///////////////////////////////////////////////////////
+ -- always pull before to be sure you are up-to-date
+ $ git pull
+ -- choose and add the file(s) you want to push on repo - example :
+ $ git add src/js/App.js src/style/index.css
+ -- commit them with a message to explain what change you have made
+ $ git commit -m 'add color on background and modified title'
+ $ git push
+
+
+
+ 5 commands you need to know :
+  >>> status, pull, add, commit, push
+ 
