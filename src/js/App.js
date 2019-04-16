@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div> Coucou Monica : ) </div>
+          <div>  Monica : ) </div>
           <div>
             Edit <span className="code">src/js/App.js</span> and save to reload.
           </div>
